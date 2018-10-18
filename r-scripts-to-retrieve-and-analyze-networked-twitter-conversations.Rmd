@@ -12,6 +12,8 @@ The code chuncks below comprise a set of R-scripts to...
 2. Analyze the ego networks (community detection and centrality measures)
 3. Mine profile descriptions and tweets and transform them into word clouds
 
+The code chuncks outline the retrieval and analysis process and call functions defined in `helpers.r` and `rate_limit.r` in the helpers folder.
+
 ## 1. Retrieval of Tweets
 
 The Twitter API comes with rate limitations. We have written scripts to stay within these rate limitations. Retrieving large sets of data therefore requires a lot of time.
